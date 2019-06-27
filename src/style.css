@@ -68,3 +68,16 @@
     top: 25%;
     bottom: 25%;
 }
+
+footer {
+    
+}
+
+.copyright {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    padding: 10px 0;
+    font-size: 12px;
+}
