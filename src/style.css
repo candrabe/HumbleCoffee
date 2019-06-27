@@ -1,57 +1,69 @@
-*{
-    margin: 0; padding:0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.site-header {
-    width: 100%;
-    height: 100vh;
-    background: #0f8a9d;
-    background: linear-gradient(57deg, #6A2B05 , #fe9c0e ); 
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-
+.header-section {
+    border-top: 5px solid #e54c2a;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    background-color: white;
 }
 
-nav{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    color: white;
-}
-
-.logo{
-    width: 50%;
-    height: 100px;
-}
-
-.logo h1{
-    line-height: 100px;
-    padding-left: 50px;
-}
-
-.menu{
-    width: 50%;
-    height: 100px;
-}
-
-.menu ul{
+.container-navbar {
+    position: relative;
     width: 100%;
     height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:  center;
+}
+.header-logo img {
+    height: 80px;
 }
 
-.menu ul li{
-    list-style: none;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
+.menu ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
 }
 
 .menu ul li a {
-    color: white;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #e54c2a;
+}
+
+.menu ul .active a {
+    color: #e54c2a;
+}
+
+.float-left {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+}
+
+.float-right {
+    position: relative;
+    float: right;
+    height: 100%;
+    padding-right: 90px;
+}
+
+.navbar-menu {
+    top: 25%;
+    bottom: 25%;
 }
