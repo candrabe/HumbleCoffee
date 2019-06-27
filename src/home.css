@@ -24,7 +24,7 @@
     /* background-image: url('./img/home/quote.jpg');
     background-repeat: no-repeat;
     background-size: cover; */
-    background-color:red;
+    background-color:#e54c2a;
     text-align: center;
     vertical-align: middle;
     padding: 150px 0;
@@ -33,4 +33,34 @@
 
 .app-quote em {
     font-size: 25px;
+}
+
+.app-populer {
+    text-align: center;
+    vertical-align: middle;
+    padding: 120px 0;
+    line-height: 35px;
+    color: #3e3e3e;
+}
+
+.app-populer h2 {
+    font-size: 30px;
+}
+
+.app-populer h4 {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.app-populer p {
+    margin: 32px auto 0;
+    max-width: 710px;
+    color: #999999;
+    padding-bottom: 40px;
+}
+
+.app-populer img{
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
