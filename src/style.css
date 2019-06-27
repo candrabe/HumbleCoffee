@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    background-color: yellow; /*Sementara*/
-}
-
 .header-section {
     border-top: 5px solid #e54c2a;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
