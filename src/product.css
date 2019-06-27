@@ -1,0 +1,147 @@
+/* reset body */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.intro{
+    background-color: #aaaaaa;
+    height: 400px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.bg-intro{
+    background-image: url(img/product/fnb.jpeg);
+    filter: blur(10px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro-text{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 70px;
+    top: 80px;
+    z-index: 2px:
+    
+}
+
+.intro-img img{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    float: right;
+    bottom: 300px;
+    right: 70px;
+    position: relative;
+    z-index: 2px;
+}
+
+.beverage{
+    background-color: #666;
+    height: 400px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.bg-beverage{
+    background-image: url(img/product/coffee.jpg);
+    filter: blur(10px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.beverage-text{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    right: 70px;
+    top: 100px;
+    float: right;
+}
+
+.beverage-img img{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    left: 70px;
+    top: 100px;
+    position: absolute;
+}
+.food{
+    background-color: #aaa;
+    height: 400px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.bg-food{
+    background-image: url(img/product/food.jpeg);
+    filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.food-text{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 70px;
+    top: 100px;
+}
+
+.food-img img{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    float: right;
+    bottom: 100px;
+    right: 70px;
+    position: absolute;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+a {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px 0 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px solid white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1, p{
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    
+}
