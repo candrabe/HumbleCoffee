@@ -1,5 +1,4 @@
 #app-banner {
-    background-color: yellowgreen;
     height: 500px;
 }
 
@@ -17,6 +16,9 @@
 .col-8 { float: left;width: 66.666%; }
 .col-9 { float: left;width: 74.9999%; }
 
+.app-left { height: 100%; position: relative; }
+.app-right { height: 100%; position: relative; }
+
 .app-image {
     position: absolute;
     top: 50%;
@@ -24,5 +26,6 @@
     transform: translate(-50%, -50%);
 }
 
-.bg-red { height: 100%; position: relative; }
-.bg-blue { height: 100%; position: relative; }
+.app-right .app-text {
+    margin: 100px 50px;
+}
