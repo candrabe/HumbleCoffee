@@ -1,28 +1,26 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    }
+       
+.img-about-us {
+    height: 150px;
+    background-image: url(/src/images/cups\ of\ coffee.jpg);
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size: cover; 
+    position: relative;
+    text-align: center;
+    padding: 80px 0 0 0;
+
+
 }
-div {
-    margin: 10px 20%;
-    box-sizing: border-box;
+.img-about-us h1 {
+    color: #e54c2a;
+    font-size: 44px;
     
 }
 
 .main-text {
-    text-align: justify;
-    font-size: 18px;
-}
-.quote {
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.bottomend {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-h1 {
-    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 0 25px;
 }
