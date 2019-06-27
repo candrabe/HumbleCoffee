@@ -73,11 +73,44 @@ footer {
     
 }
 
-.copyright {
+.footer-top {
+    height: 300px;
+    background-color: #333333;
+}
+
+.footer-top-sub {
+    position: relative;
+    height: 100%;
+}
+
+.footer-top-sub img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 130px;
+}
+
+.footer-top-sub .footer-top-widget {
+    position: absolute;
+    padding-top : 10%;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 35px;
+
+}
+
+.footer-top-widget h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.footer-buttom {
     text-align: center;
     text-transform: uppercase;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     padding: 10px 0;
     font-size: 12px;
 }

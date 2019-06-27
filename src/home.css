@@ -29,3 +29,18 @@
 .app-right .app-text {
     margin: 100px 50px;
 }
+
+.app-quote {
+    /* background-image: url('./img/home/quote.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color:red;
+    text-align: center;
+    vertical-align: middle;
+    padding: 150px 0;
+    color: white;
+}
+
+.app-quote em {
+    font-size: 25px;
+}
