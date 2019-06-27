@@ -28,7 +28,7 @@
     position: absolute;
     left: 70px;
     top: 80px;
-    z-index: 2px:
+    z-index: 2px;
     
 }
 
@@ -127,7 +127,7 @@ p{
     font-style: italic;
 }
 
-a {
+.beverage a, .food a {
     display: inline-block;
     width: 150px;
     height: 30px;
