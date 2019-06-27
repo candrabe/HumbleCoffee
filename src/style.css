@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.col-1 { float: left; width: 8.333%;}
+.col-2 { float: left;width: 16.666%; }
+.col-3 { float: left;width: 25%; }
+.col-4 { float: left;width: 33.333%; }
+.col-5 { float: left;width: 41.666%; }
+.col-6 { float: left;width: 50%; }
+.col-7 { float: left;width: 58.333%; }
+.col-8 { float: left;width: 66.666%; }
+.col-9 { float: left;width: 74.9999%; }
+
 .header-section {
     border-top: 5px solid #e54c2a;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
