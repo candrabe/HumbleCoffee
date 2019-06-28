@@ -25,11 +25,17 @@ body{
     background-repeat: no-repeat;
 }
 
+.container img{
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
 h1{
     left: 35%;
     margin-top: 20px;
     position: absolute;
-    top: 50px;
+    top: 120px;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     
@@ -58,21 +64,29 @@ input:focus{
     position: absolute;
     left: 30%;
     padding-bottom:5px; 
-    top: 360px;
+    top: 460px;
     background-color: white;
     color: black;
     border-radius: 10px;
     text-transform: uppercase;
 }
 
+#first-name{
+    top: 160px;
+}
+
+#last-name{
+    top: 220px;
+}
+
 #username{
-    top: 120px;
+    top: 280px;
 }
 
 #email{
-    top: 200px;
+    top: 340px;
 }
 
 #password{
-    top: 280px;
+    top: 400px;
 }
